@@ -1,0 +1,175 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Comfortaa', cursive;
+
+}
+
+h1{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.17em;
+}
+
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* Estilizando NAVBAR */
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    height: 60px;
+    background-color: #333;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-links li, .nav-links a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+.btn {
+    width: 100px;
+    padding: 5px 0;
+    color: white;
+    font-weight: bold;
+    background-color: #17a2b8;
+    box-shadow: 3px 3px black;
+    cursor: pointer;
+}
+
+.active {
+    font-weight: 900;
+}
+
+/* Estilizando el contenedor main principal*/
+.main{
+    align-items: flex-start;
+    gap: 20px;
+}
+
+/* Contenidos del main */
+.col-1, .col-2{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.col-1 {
+    flex: 2;
+}
+
+.col-2 {
+    flex: 1;
+}
+
+
+/* Headers en general */
+header {
+    height: 60px;
+    background-color: #333333;
+    color: white;
+    padding: 0 20px;
+}
+
+
+/* Tarjeta de usuario */
+#header-user {
+    height: 110px;
+    background-color: #17a2b8;
+}
+
+#user-icon {
+    height: 100px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    margin-top: 55px;
+    /*La mitad del header*/
+}
+
+.card-body,
+.aside-body,
+.aside-footer {
+    padding: 20px;
+    border: 3px solid gray;
+    border-top: none ;
+}
+
+.card-body h3,
+.card-body p ,
+.card-body h1{
+    margin-bottom: 20px;
+}
+
+.card-body h1{
+    margin-top: 40px;
+}
+
+.text-muted{
+    color: #6c757d
+}
+
+.icon, .icon-ac {
+    height: 18px;
+    width: auto;
+}
+
+/* Estilizando los aside, img para icono de user */
+.notification {
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: lightgray;
+    color: black;
+}
+
+.aside-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.aside-item{
+    display: flex;
+}
+
+.user-profile, .icon-ac{
+    width: 40px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.icon-ac{
+    cursor: pointer;
+}
+
+.aside-footer{
+    border-top: 1px solid gray;
+}
+
+
+
+
+
+
+
